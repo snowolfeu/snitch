@@ -1,11 +1,13 @@
-/*******************************************************************************************************************/
-/* Snitchbot, edit reporter bot for Wikimedia projects                                                             */
-/*                                                                                                                 */
-/* Original bot by bjweeks & MzMcBride, 2011 (released in public domain, see https://github.com/Jyothis/snitchbot) */
-/* Forked by Snowolf at https://github.com/snowolfeu/snitchbot                                                     */
-/*                                                                                                                 */
-/* Fork changes: documentation, moving nickname to the settings file, example .db file                             */
-/*******************************************************************************************************************/
+/***************************************************************************************/
+/* Snitchbot, edit reporter bot for Wikimedia projects                                 */
+/*                                                                                     */
+/* Original bot by bjweeks & MzMcBride, 2011 - released in public domain               */
+/*         Some modifications by Jyothis, 2012 - https://github.com/Jyothis/snitchbot  */
+/*                                                                                     */
+/* Forked by Snowolf, 2012 at https://github.com/snowolfeu/snitchbot                   */
+/*                                                                                     */
+/* Fork changes: documentation, moving nickname to the settings file, example .db file */
+/***************************************************************************************/
 
 Snitch sits in freenode, snatch sits on irc.wikimedia.org
 
@@ -16,7 +18,7 @@ INSTALLATION
 4) Do a !part on #snitch-test
 5) Enjoy :)
 
----> It's probably best to just edit the sqlite3 file to make it join directly the channel you want. <---
+It's probably best to just edit the sqlite3 file to make it join directly the channel you want.
 
 AUTHORIZED USERS
 	Cloaks of user who can use the !quit command | all other commands are unrestricted
