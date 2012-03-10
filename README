@@ -1,21 +1,22 @@
-Snitchbot, edit reporter bot for Wikimedia projects
-
-By bjweeks & MzMcBride, released into public domain - 2011
-	Put on Github by Jyothis, forked by Snowolf
-Github: https://github.com/Jyothis/snitchbot
-Github for this fork: https://github.com/snowolfeu/snitchbot
+/*******************************************************************************************************************/
+/* Snitchbot, edit reporter bot for Wikimedia projects                                                             */
+/*                                                                                                                 */
+/* Original bot by bjweeks & MzMcBride, 2011 (released in public domain, see https://github.com/Jyothis/snitchbot) */
+/* Forked by Snowolf at https://github.com/snowolfeu/snitchbot                                                     */
+/*                                                                                                                 */
+/* Fork changes: documentation, moving nickname to the settings file, example .db file                             */
+/*******************************************************************************************************************/
 
 Snitch sits in freenode, snatch sits on irc.wikimedia.org
 
 INSTALLATION
 1) Edit the settings.py.example file appropriately and rename it to settings.py
-2) Edit snitchbot.py replacing <Replace with Bot Nick> with your bot's nickname (both on row 78 and row 172)
-3) Run snitchbot.py
-4) Join #snitch-test on freenode and do a !join #channelyouwant the bot to join
-5) Do a !part on #snitch-test
-6) Enjoy :)
+2) Run snitchbot.py
+3) Join #snitch-test on freenode and do a !join #channelyouwant the bot to join
+4) Do a !part on #snitch-test
+5) Enjoy :)
 
-It's probably best to just edit the .db file to make it join directly the channel you want.
+---> It's probably best to just edit the sqlite3 file to make it join directly the channel you want. <---
 
 AUTHORIZED USERS
 	Cloaks of user who can use the !quit command | all other commands are unrestricted

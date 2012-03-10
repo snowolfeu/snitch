@@ -5,4 +5,6 @@ snitch_network = 'irc.freenode.net'
 
 nickserv_password = '...'
 
+nickname = '...'
+
 authorized_users = ('wikipedia/bar', 'wikipedia/foo')
