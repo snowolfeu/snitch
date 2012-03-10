@@ -1,10 +1,10 @@
 /***************************************************************************************/
-/* Snitchbot, edit reporter bot for Wikimedia projects                                 */
+/* Snitch, an edit reporting bot for Wikimedia projects                                */
 /*                                                                                     */
 /* Original bot by bjweeks & MzMcBride, 2011 - released in public domain               */
 /*         Some modifications by Jyothis, 2012 - https://github.com/Jyothis/snitchbot  */
 /*                                                                                     */
-/* Forked by Snowolf, 2012 at https://github.com/snowolfeu/snitchbot                   */
+/* Forked by Snowolf, 2012 at https://github.com/snowolfeu/snitch                      */
 /*                                                                                     */
 /* Fork changes: documentation, moving nickname to the settings file, example .db file */
 /***************************************************************************************/
