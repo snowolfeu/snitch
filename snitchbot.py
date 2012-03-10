@@ -74,7 +74,7 @@ class EternalClient(irc.IRCClient):
             % (self.nickname, params[1]))
 
 class Snatch(EternalClient):
-    realname = 'snerk'
+    realname = 'snitchbot'
     nickname = '<Replace with Bot Nick>'
 
     def connectionMade(self):
@@ -168,7 +168,7 @@ class Snatch(EternalClient):
 
 
 class Snitch(EternalClient):
-    realname = 'snerk'
+    realname = 'snitchbot'
     nickname = '<Replace with Bot Nick>'
     password = ':%s %s' % (nickname, settings.nickserv_password)
     lineRate = 1
